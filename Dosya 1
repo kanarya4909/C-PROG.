@@ -1,0 +1,148 @@
+#include<stdio.h>
+
+int main()
+
+{
+	/*
+	
+	printf("Hello World\n"); // "\n" etiketi burda  "BİR ALT SATIRA GEÇME KOMUTUNU" veriyor.
+	
+	printf("Hello World 2");
+	
+	getchar(); // Bu komut programımızın sonlanmasını engelliyor.
+	
+	return 0; // Bu komut programımızın sonlandığını ifade ediyor.
+	
+	/*
+	
+	Çoklu yorum satırı
+	
+	*/
+	
+	
+	
+	
+	/*                                                 DEĞİŞKEN TANIMLAMA:
+	
+	int i=10;
+	
+	short int si=20; // Küçük tamsayı değerlei için kullanılır.
+	
+	long int li=30; // Daha büyük tamsayı değerleri için kullanılır.
+	
+	double d=3.14; // Büyük Ondalıklı sayılar için kullanılır.
+	
+	float f=2.12; // Küçük ondalıklı sayılar için kullanılır.
+	
+	char c='A'; // Karakter girişi
+	
+	// format belirleyici
+	
+	
+	printf("%d %d %d %.2f %.2f %c",i,si,li,d,f,c ); // Burda yüzdelik ifade ile bahsettiğimiz değelerin yerine atadağımız değerler geliyor. 
+	                                                //  Bir diğer önemli nokta "%.2f" ile demek istediğim float değerden sonra yani virgülden sonra 2 sayı gelsin demek istiyorum.
+	
+	getchar();
+	
+	*/
+  
+  
+  
+  
+  
+    /*                                                  ARİTMETİK İŞLEMLER:
+  
+printf("%d\n",10+4);
+
+printf("%d\n",10-4);
+
+printf("%d\n",10*4);
+
+printf("%d\n",10/4); /*Burda bölme işlemi yaptığımız sonuç "İNTEGER" BİR DEĞER ÇIKAR FAKAT BİZ "VİRGÜLLÜ" OLARAK GÖRMEK İSTİYORSAK BÖLERKEN 10.0 VEYA 4.0 GİBİ YAPACAĞZ DAHA SONRA "%d" yerine "%f" yapmamız gerekiyor. 
+
+printf("%d\n",10%4);
+
+getchar();
+	
+
+*/
+
+
+//                                             TÜR DÖNÜŞÜMÜ:
+                                           
+//          CHAR -> SHORT->İNT->FLOAT->DOUBLE  Bu kısımda otomatik olarak girdiniz progrma böyle rastgele örneğin "FLOAT" ve "İNTEGER" bir değer girdiniz "C DERLEYİCİ" integer değeri önce "FLOATA" çevirir daha sonra işlemi yapar sağa doğru gidildikçe çevirme o kadar artar.                                 
+
+
+// EXAMPLE:
+
+/*printf("%d",(int)4.2); // Bu kısımda "FLOAT" bir değer olan 4.2 "TÜR DÖNÜŞÜMÜ" yaparak "İNTEGER" HALİNE YANİ 4 yapıldı./*
+*/
+
+
+
+/*                                              ARTTIRMA AZALTMA İŞLEMLERİ:
+
+int a=10;
+
+int b=20;
+
+int c =30;
+
+a=(b+c+10);
+
+printf("%d",a);
+
+getchar();
+
+return 0;
+
+*/
+
+//                                 PEKİ BİZ YUKARIDAKİ "a" DEĞERİNİ GÜNCELLEMEK İSTERSEK NASIL YAPACAĞIZ:
+
+
+/*
+int a=10;
+
+int b=20;
+
+int c =30;
+
+//a+2
+
+printf("%d",a+2);
+
+// Bunu yerine daha kestirme olan şunu yapabilirsin:
+
+//a+=2 Çok daha kestirme bir yol.
+
+//a++; BU güncelleme yapmıyor.
+
+//printf("%d",a++); // Burda  güncelleme "anlık" olmadığı için "10" olarak kalır.
+
+// Bu ikisinin en temel farkı "++a" sayıyı güncelleyip toplarken "a++" bu işemi yapmaz yani güncellemez.
+
+//printf("%d",++a);Burda  güncelleme "anlık" olduğu için "11" olarak kalır.
+
+/++a
+
+// Bunlar bunun "-" çıkartma işleminede dahil bunlar aynısı yani.
+
+printf("%d",a);
+
+}
+
+
+
+*/
+
+
+  
+  
+  
+  
+  
+  
+  
+	
+	
